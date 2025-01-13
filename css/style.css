@@ -12,7 +12,7 @@ main {
   border-radius: 12px;
   margin: auto;
   width: 85vw;
-  height: 75vh;
+  height: 84vh;
   background-color: whitesmoke;
 }
 .top-section {
@@ -61,7 +61,7 @@ img {
 }
 .info {
   display: flex;
-  gap: 80px;
+  gap: 60px;
   padding: 20px;
   /* justify-content: center; */
   align-items: flex-start;
