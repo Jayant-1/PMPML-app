@@ -12,7 +12,7 @@ main {
   border-radius: 12px;
   margin: auto;
   width: 85vw;
-  height: 80vh;
+  height: 590px;
   background-color: whitesmoke;
 }
 .top-section {
@@ -32,7 +32,8 @@ main {
   height: 32vh;
 }
 @keyframes expandCompress {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
   }
   50% {
@@ -54,7 +55,7 @@ img {
   display: flex;
   border-radius: 0 0 12px 12px;
   width: 85vw;
-  height: 35px;
+  height: 36px;
   margin: 0;
   align-items: center;
   justify-content: center;
@@ -111,4 +112,3 @@ hr {
 .time > .id {
   padding: 10px;
 }
-
