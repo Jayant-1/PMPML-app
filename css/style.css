@@ -33,6 +33,7 @@ main {
   border-bottom-left-radius: 0; 
   border-bottom-right-radius: 100px; 
   border: 1px solid black;
+  border-left: none;
 }
 .semi-circle-right {
   width: 25px;       
@@ -43,6 +44,7 @@ main {
   border-bottom-left-radius: 100px; 
   border-bottom-right-radius: 0; 
   border: 1px solid black;
+  border-right: none;
 }
 .img {
   display: flex;
