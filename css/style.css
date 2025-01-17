@@ -24,6 +24,26 @@ main {
   margin: 0;
   padding: 10px;
 }
+.semi-circle-left {
+  width: 25px;       
+  height:50px;       
+  background-color: transparent;
+  border-top-left-radius: 0; 
+  border-top-right-radius: 100px; 
+  border-bottom-left-radius: 0; 
+  border-bottom-right-radius: 100px; 
+  border: 1px solid black;
+}
+.semi-circle-right {
+  width: 25px;       
+  height:50px;       
+  background-color: transparent;
+  border-top-left-radius: 100px; 
+  border-top-right-radius: 0; 
+  border-bottom-left-radius: 100px; 
+  border-bottom-right-radius: 0; 
+  border: 1px solid black;
+}
 .img {
   display: flex;
   justify-content: center;
@@ -111,4 +131,16 @@ hr {
 
 .time > .id {
   padding: 10px;
+}
+#line{
+  display: flex;
+}
+
+#line > hr {
+  width: 85vw;
+  border: 0;
+  margin-top: 26px;
+  height: 0.8px;
+  background: #000;
+  background: repeating-linear-gradient(90deg, #000, #000 8px, transparent 8px, transparent 20px);
 }
