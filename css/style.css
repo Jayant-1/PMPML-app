@@ -7,13 +7,14 @@ body {
   padding: 0;
   font-family: "Arial", sans-serif;
   background: lightblue;
+  flex-direction: column;
 }
 main {
   border-radius: 12px;
   margin: auto;
-  width: 85vw;
+  width: 92vw;
   height: 620px;
-  background-color: antiquewhite;
+  background-color: antiquewhite;;
 }
 .top-section {
   text-align: center;
@@ -76,11 +77,12 @@ img {
   background-color: red;
   display: flex;
   border-radius: 0 0 12px 12px;
-  width: 85vw;
+  width: 92vw;
   height: 36px;
   margin: 0;
   align-items: center;
   justify-content: center;
+  visibility: hidden;
 }
 .info {
   display: flex;
